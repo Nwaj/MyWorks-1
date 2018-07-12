@@ -1,0 +1,105 @@
+.header 
+	padding: 5px 0
+	background-color: $accent
+	box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.65)
+
+	&__row
+		display: flex
+		align-items: center
+		height: 100%
+	&__contact
+		display: flex
+		justify-content: space-between
+		align-items: center
+	&__phone
+		display: block
+		width: auto
+		line-height: 1
+.logo
+	// color: #fff
+	// font-size: 24px
+	// font-weight: 300
+	// &_strong
+	// 	color: $logo_strong
+	// 	font-weight: 800
+	&_header
+		// display: flex
+		// align-items: center
+		margin-top: -5px
+
+	&__img
+		max-width: 100%
+.nav
+	padding-right: 66px
+	&__list
+		margin: 0
+		padding: 0
+		display: flex
+		justify-content: space-between
+		flex: 1
+	&__item
+		list-style-type: none
+	&__link
+		position: relative
+		display: block
+		color: $inactive
+		font-weight: 400
+		transition: all .3s
+		&:before
+			position: absolute
+			content: ''
+			width: 50px
+			height: 4px
+			background-color: $red
+			bottom: -15px
+			left: 50%
+			transform: translateX(-50%) scale(0)
+			transition: all .3s
+		&:hover
+			color: #ffffff
+			text-decoration: none
+			&:before
+				transform: translateX(-50%) scale(1)
+.contact
+	&__phone
+		color: #ffffff
+		font-weight: 300
+		text-transform: uppercase
+		transition: all .3s
+		&:hover
+			text-decoration: none
+			color: #fff
+	&__info
+		display: inline-block
+		padding-top: 4px
+		margin-right: 5px
+	&__btn
+		padding: 10px 30px
+		margin-top: -3px
+.phone
+	&_strong
+		font-weight: 700
+.opening-hours
+	color: #ffffff
+	font-size: 14px
+	font-weight: 400
+	text-transform: uppercase
+	&_strong
+		font-weight: 700
+
+.hamburger
+	padding: 0
+	align-items: center
+	&.hamburger--collapse
+		outline: none
+	&-box
+		width: 28px
+		height: 24px
+	&-inner, &-inner:after, &-inner:before
+		width: 100%
+		height: 3px
+		background-color: #fff
+		color: #fff
+	&.is-active
+		position: fixed
+		top: 12px

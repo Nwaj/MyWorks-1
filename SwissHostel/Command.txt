@@ -1,0 +1,17 @@
+browser-sync start --server --files "./**/*.*" --no-notify
+
+npm -v
+
+node -v
+
+gulp -v
+
+npm i -g gulp mpm-check-updates
+
+ncu
+ncu -a или ncu -u 
+
+npm i
+
+
+

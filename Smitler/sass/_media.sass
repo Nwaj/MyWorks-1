@@ -1,0 +1,186 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px)
+	header
+		.flex-composition
+			.welcome
+				.h1
+					font-size: 62px
+		.contacts-header
+			font-size: 14px
+
+	section
+		.services-carousel-item
+			flex-direction: column
+		&.s
+			&-king, &-partners, &-review
+				padding: 8% 0
+			&-call 
+				background-size: cover
+
+@media only screen and (min-width : 992px) and (max-width : 1199px)
+	footer
+		.footer
+			&-brand 
+		 		p 
+		 			margin-bottom: 30px
+			&-social
+				.social
+					ul 
+						li 
+							display: block
+							margin-bottom: 8px
+			&-addr.footer-tel
+				font-size: 23px
+				margin-top: 32px
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px)
+	header
+		.flex-composition
+			.welcome
+				.h1
+					font-size: 48px
+		.contacts-header
+			text-align: center
+
+	section
+	.s 
+		&-call
+			&:before 
+				width: 100% 
+			.callback
+				padding: 12% 0
+
+	footer
+
+		/*.footer
+			
+			&-social
+				.social
+					ul 
+						li 
+							display: inline-block*/
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px)
+	header
+		.flex-composition
+			.welcome
+				.h1
+					font-size: 45px
+		.contacts-header
+			text-align: center
+			div
+				display: inline-block
+
+	section
+	.s 
+		&-call
+			text-align: center
+			input, textarea, select,
+			.selectize-control.single .selectize-input.input-active, .selectize-input, .selectize-dropdown
+				text-align: left	
+		&-review
+			.quotes
+				display: none
+
+		&-partners
+			.h2
+					margin: 0
+			.partners
+				.owl-nav
+					> div
+						&.owl-prev
+							left: 0
+						&.owl-next
+							right: 0
+
+	footer
+		padding: 0 3%
+		.footer
+			&-brand 
+		 		p 
+		 			margin: 10px 0
+			&-column
+				margin: 15px 0
+			&-addr
+				margin-bottom: 15px
+				&.footer-tel
+					margin: 0
+			
+						
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 479px)
+	header
+		.phone
+			display: none
+		.top-line
+			text-align: center
+			.logo
+				img
+					margin-left: 0
+		.flex-composition
+			.welcome
+				.h1
+					font-size: 28px
+					margin-top: 5px
+				p 
+					span
+						font-size: 9px
+				strong
+					margin-top: 18px
+					font-size: 24px
+			p 
+				font-size: 11px
+				margin-top: 24px
+		.btn
+			padding: 12px 38px
+	section
+		.s 
+			&-king
+	.fotorama__nav--thumbs
+		display: none
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 319px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+

@@ -1,0 +1,138 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+
+//Extra large: ≥1200px
++media-breakpoint-down(xl)
+
+//Large: ≥992px
++media-breakpoint-down(lg)
+	.company
+		&-news 
+		.news-info
+			p
+				font-size: 16px
+
+
+//Medium: ≥768px
++media-breakpoint-down(md)
+	.company
+		&-news 
+			.news-info
+				p
+					font-size: 18px
+		&-info
+			text-align: left
+			&:after
+				display: none
+
+	.activities
+		&-materials
+			text-align: center
+			ul
+				padding-left: 100px
+				margin-left: 110px
+			.h4
+				margin-left: 0
+				margin-bottom: 30px
+	
+//Small: ≥576px
++media-breakpoint-down(sm)
+	.header
+		&-logo
+			order: -1
+			text-align: center
+			margin-bottom: 70px
+		&-nav
+			text-align: center
+			margin-bottom: 20px
+			ul 
+				display: flex
+				justify-content: space-between
+
+	.activities
+		&-materials
+			text-align: center
+			ul
+				padding-left: 190px
+				margin-left: 50px
+		&-products
+			padding: 0
+			&:before, &:after
+				display: none
+
+	.contacts
+		&-map
+			margin-bottom: 30px
+			
+	.footer
+		&-nav
+			&-ul
+				order: -1
+		&-copy
+			margin-top: 50px
+			text-align: center
+			span
+				display: inline-block
+				vertical-align: middle
+	.footer-nav-ul:nth-of-type(1)
+		padding-right: 0
+
+	.footer-nav-ul:nth-of-type(3)
+		padding-left: 0
+
+
+
+						
+			
+
+//Extra small: >0
++media-breakpoint-down(xs)
+	.header
+		& &-second-form
+			padding: 40px 40px 25px 25px
+	.company-news 
+		margin-top: 20px
+		.news-info 
+			margin-top: 10px
+	.activities
+		&-materials
+			ul
+				margin-left: 7%
+				&:before
+					width: 190px
+					height: 145px
+				li 
+					&:nth-of-type(1)
+						padding-top: 5px
+					&:nth-of-type(2)
+						padding-top: 5px
+					&:nth-of-type(3)
+						padding-top: 7px
+					&:nth-of-type(4)
+						padding-top: 5px
+		&-products-ul
+			display: block
+			padding-left: 33%		
+
+
+
+
+/*==========  Mobile First  ==========*/
+
+//Extra small: <576px
++media-breakpoint-up(xs)
+
+//Small: ≤576px
++media-breakpoint-up(sm)
+
+//Medium: ≤768px
++media-breakpoint-up(md)
+
+//Large: ≤992px
++media-breakpoint-up(lg)
+
+//Extra large: ≤1200px
++media-breakpoint-up(xl)

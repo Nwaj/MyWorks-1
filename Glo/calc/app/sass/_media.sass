@@ -1,0 +1,78 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+
+//Extra large: ≥1200px
++media-breakpoint-down(xl)
+
+//Large: ≥992px
++media-breakpoint-down(lg)
+	.calc
+		padding: 26px 50px
+//Medium: ≥768px
++media-breakpoint-down(md)
+	.calc
+		padding: 26px 26px
+//Small: ≥576px
++media-breakpoint-down(sm)
+	.wrapper
+		padding: 100px 0
+//Extra small: >0
++media-breakpoint-down(xs)
+	body
+		font-size: 21.5px
+	.tabs
+		display: flex
+		flex-direction: column
+		align-items: center
+		.tab
+			margin-right: 0
+			margin-bottom: 5px
+			&-left
+				padding: 20.5px 81px
+				border-radius: 15px 0 0
+			&-right
+				padding: 20.5px 34.8px
+				border-radius: 0 0 0 15px
+		.active
+			&:before
+				display: none
+			&:after
+				position: absolute
+				content: ''
+				width: 1px
+				height: 100%
+				bottom: 0
+				right: -6px
+				background-color: $accent
+	.addiction
+		margin-bottom: 0
+		&-title
+			margin-bottom: 20px
+		&-block
+			margin-bottom: 20px
+		label
+			padding-left: 25px
+			&:before
+				top: 9px
+				width: 20px
+				height: 20px
+
+/*==========  Mobile First  ==========*/
+
+//Extra small: <576px
++media-breakpoint-up(xs)
+
+//Small: ≤576px
++media-breakpoint-up(sm)
+
+//Medium: ≤768px
++media-breakpoint-up(md)
+
+//Large: ≤992px
++media-breakpoint-up(lg)
+
+//Extra large: ≤1200px
++media-breakpoint-up(xl)

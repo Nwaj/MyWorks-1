@@ -1,0 +1,1099 @@
+.book {
+  font-family: 'P22UndergroundCYProBook', sans-serif;
+}
+.demi {
+  font-family: 'P22UndergroundCYProDemi', sans-serif;
+}
+.heavy {
+  font-family: 'P22UndergroundCYProHeavy', sans-serif;
+}
+.medium {
+  font-family: 'P22UndergroundCYProMedium', sans-serif;
+}
+.thin {
+  font-family: 'P22UndergroundCYProThin', sans-serif;
+}
+.center-blocks {
+  display: block;
+  margin: 0 auto;
+}
+body,
+html {
+  overflow-x: hidden;
+  color: #333333;
+  font-family: 'P22UndergroundCYProBook', sans-serif;
+  font-size: 15px;
+}
+body .fa-li,
+html .fa-li {
+  top: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+/*============    	HEADER   ===========*/
+header,
+footer {
+  padding: 34px 0;
+  background-color: #fff;
+}
+.header-info {
+  text-align: center;
+}
+.header-info div {
+  display: inline-block;
+}
+.header-info div:last-child {
+  margin-left: 70px;
+}
+.header-info span {
+  font-size: 14px;
+  line-height: 35px;
+}
+.header-info span:before {
+  content: '';
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  margin-left: -50px;
+}
+.header-info span.header-place:before {
+  background: url(../img/header-icon-1.png) no-repeat center center;
+}
+.header-info span.header-date:before {
+  background: url(../img/header-icon-2.png) no-repeat center center;
+}
+.header-phones {
+  font-family: 'P22UndergroundCYProDemi', sans-serif;
+  font-size: 22px;
+  text-align: right;
+}
+.header-phones a {
+  text-decoration: none;
+  color: #333333;
+  line-height: 1.5;
+}
+.header-phones a:last-child {
+  padding-left: 20px;
+}
+.header-phones span {
+  color: #125e94;
+}
+/*============    	SECTION "Главная"   ===========*/
+.main {
+  background-color: #fafafa;
+  padding: 75px 0;
+}
+.main-header {
+  padding-top: 100px;
+  background: url(../img/header-brain.png) no-repeat right 10% center;
+}
+.main-header span {
+  color: #333333;
+  font-family: 'P22UndergroundCYProThin', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.main-header h2 {
+  color: #125e94;
+  font-family: 'P22UndergroundCYProHeavy', sans-serif;
+  font-size: 70px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 1;
+  margin-bottom: 80px;
+}
+.main-ul {
+  color: #333333;
+  font-family: 'P22UndergroundCYProBook', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 34px;
+  padding-left: 0;
+}
+.main-ul li {
+  list-style-type: none;
+  background: url(../img/header-icon-3.png) no-repeat left top 5px;
+  padding-left: 30px;
+}
+.main-form {
+  border-top: 5px solid #125e94;
+  background: #f8f8f8;
+  padding: 40px;
+}
+.main-form h4 {
+  color: #333333;
+  font-family: 'P22UndergroundCYProMedium', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.main-form form {
+  padding-top: 35px;
+}
+.main-form form input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #333333;
+  outline: none;
+  width: 100%;
+  height: 35px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  opacity: .3;
+}
+.main-form form input:focus {
+  opacity: 1;
+}
+.main-form form .input-name {
+  background: url(../img/input-name.png) no-repeat left 35%;
+}
+.main-form form .input-tel {
+  background: url(../img/input-tel.png) no-repeat left 35%;
+}
+.main-form form .input-email {
+  background: url(../img/input-email.png) no-repeat left 38%;
+}
+.main-form p {
+  padding-top: 40px;
+  color: #333333;
+  font-family: 'P22UndergroundCYProBook', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.main-form p strong {
+  color: #006699;
+  font-family: 'P22UndergroundCYProHeavy', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+}
+.main-form span {
+  color: #333333;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.main-form button {
+  display: block;
+  margin-top: 35px;
+  padding: 25px 80px;
+  box-shadow: 0 0 8px rgba(0, 16, 27, 0.2);
+  background-color: #e7af10;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-family: 'P22UndergroundCYProBook', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.main-form button:hover {
+  box-shadow: 0 0 8px rgba(0, 16, 27, 0.4);
+  background-color: #e7af10;
+}
+/*============    	SECTION "Вам будет полезен мастер-класс, если:"   ===========*/
+.somebody {
+  padding: 95px 0;
+}
+.somebody h2 {
+  padding-bottom: 90px;
+  text-align: center;
+  font-family: 'P22UndergroundCYProMedium', sans-serif;
+}
+.somebody-img {
+  vertical-align: top;
+  text-align: center;
+  padding: 0 10px;
+}
+.somebody-txt h4 {
+  padding-bottom: 30px;
+  color: #125e94;
+  font-family: 'P22UndergroundCYProHeavy', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.somebody-txt ul {
+  margin-left: 20px;
+}
+.somebody-txt ul li {
+  color: #333333;
+  font-family: 'P22UndergroundCYProBook', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+  padding-bottom: 7px;
+}
+/*============    	SECTION "Что вы унаете на мастер-классе"   ===========*/
+.what-learn {
+  padding: 100px 0;
+  background: #125e94;
+}
+.what-learn h2 {
+  font-family: 'P22UndergroundCYProMedium', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  padding-bottom: 90px;
+  color: #ffffff;
+}
+.what-learn-bar {
+  color: #ffffff;
+  text-align: center;
+}
+.what-learn-bar .circle {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+}
+.what-learn-bar .circle strong {
+  position: absolute;
+  top: 57px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 20px;
+  font-size: 65px;
+  font-family: 'P22UndergroundCYProHeavy', sans-serif;
+}
+.what-learn-bar .circle-txt {
+  padding-top: 40px;
+  max-width: 220px;
+}
+.what-learn-bar .circle-txt h4 {
+  color: #ffffff;
+  font-family: 'P22UndergroundCYProHeavy', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-bottom: 35px;
+}
+.what-learn-bar .circle-txt span {
+  opacity: 0.6;
+  color: #fff;
+  font-family: 'P22UndergroundCYProBook', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+}
+.what-learn .other-form,
+.feedback .other-form {
+  margin: 100px 0;
+  border-top: none;
+  background: #fff;
+}
+.what-learn .other-form form input,
+.feedback .other-form form input {
+  margin-top: 20px;
+}
+.what-learn .other-form button,
+.feedback .other-form button {
+  padding: 25px 50px;
+  margin: 0;
+}
+/*============    	SECTION "Что вы получите на мастер-классе"   ===========*/
+.what-get {
+  text-align: center;
+}
+.what-get h2 {
+  font-family: 'P22UndergroundCYProMedium', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 20px;
+  padding-bottom: 90px;
+}
+.what-get-block {
+  position: relative;
+  display: inline-block;
+}
+.what-get-block-txt {
+  padding-top: 40px;
+  max-width: 250px;
+}
+.what-get-block-txt h4 {
+  color: #ffffff;
+  font-family: 'P22UndergroundCYProHeavy', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-bottom: 35px;
+}
+.what-get-block-txt span {
+  opacity: 0.6;
+  color: #fff;
+  font-family: 'P22UndergroundCYProBook', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+}
+#what-get-block-1 {
+  display: inline-block;
+  width: 100px;
+  height: 90px;
+  overflow: hidden;
+  background: url(../img/icon-people.png) no-repeat center center;
+}
+#what-get-block-1:hover {
+  background: url(../img/icon-people-hover.png) no-repeat center center;
+}
+#what-get-block-2 {
+  display: inline-block;
+  width: 100px;
+  height: 90px;
+  background: url(../img/icon-tools.png) no-repeat center center;
+}
+#what-get-block-2:hover {
+  background: url(../img/icon-tools-hover.png) no-repeat center center;
+}
+#what-get-block-3 {
+  display: inline-block;
+  width: 100px;
+  height: 90px;
+  background: url(../img/icon-gifts.png) no-repeat center center;
+}
+#what-get-block-3:hover {
+  background: url(../img/icon-gifts-hover.png) no-repeat center center;
+}
+/*============    	SECTION "Спикеры мастер класса"   ===========*/
+.speakers {
+  padding: 100px 0;
+  background: #fff;
+}
+.speakers h2 {
+  color: #333333;
+  font-family: 'P22UndergroundCYProMedium', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  padding-bottom: 90px;
+}
+.speakers .carousel .item h5 {
+  color: #125e94;
+  font-family: 'P22UndergroundCYProHeavy', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-bottom: 5px;
+}
+.speakers .carousel .item span {
+  color: #999999;
+  font-family: 'P22UndergroundCYProBook', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.speakers .carousel .item ul {
+  margin-left: 20px;
+  padding-top: 30px;
+}
+.speakers .carousel .item ul li {
+  padding-top: 3px;
+  padding-bottom: 5px;
+  color: #333333;
+  font-family: 'P22UndergroundCYProBook', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+}
+.speakers .carousel-control {
+  width: 0%;
+  background-image: none;
+}
+.speakers .carousel-control .glyphicon-menu-left,
+.speakers .carousel-control .glyphicon-menu-right {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+  margin-top: -10px;
+  background: #999;
+  font-size: 20px;
+  line-height: 1.8;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.speakers .carousel-control .glyphicon-menu-right {
+  right: 50%;
+}
+.speakers .carousel-control .glyphicon-menu-left {
+  left: 50%;
+}
+.speakers .carousel-indicators {
+  bottom: -35px;
+}
+.speakers .carousel-indicators li {
+  border: 1px solid #999;
+  background: #999;
+  opacity: 0.25;
+}
+.speakers .carousel-indicators .active {
+  border: 1px solid #999;
+  background: #999;
+  opacity: 1;
+}
+/*============    	SECTION "Отзывы"   ===========*/
+.feedback {
+  padding: 100px 0;
+  background: #fff;
+}
+.feedback h2 {
+  color: #333333;
+  font-family: 'P22UndergroundCYProMedium', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  padding-bottom: 90px;
+}
+.feedback h5 {
+  color: #125e94;
+  font-family: 'P22UndergroundCYProHeavy', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-bottom: 5px;
+  padding-top: 25px;
+}
+.feedback span {
+  display: block;
+  color: #999999;
+  font-family: 'P22UndergroundCYProBook', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-bottom: 25px;
+}
+.feedback p {
+  color: #333333;
+  font-family: 'P22UndergroundCYProBook', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+}
+.feedback .other-form {
+  background: #f8f8f8;
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+.feedback .owl-carousel {
+  width: 93%;
+  margin: 0 auto;
+}
+.feedback .owl-carousel .owl-prev,
+.feedback .owl-carousel .owl-next {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 35%;
+  z-index: 5;
+  display: inline-block;
+  background: #999;
+  font-size: 20px;
+  line-height: 1.8;
+  border-radius: 20px;
+  overflow: hidden;
+  opacity: .7;
+}
+.feedback .owl-carousel .owl-prev:hover,
+.feedback .owl-carousel .owl-next:hover {
+  opacity: 1;
+}
+.feedback .owl-carousel .owl-prev span,
+.feedback .owl-carousel .owl-next span {
+  color: #fff;
+  font-family: 'Glyphicons Halflings';
+  font-size: 20px;
+}
+.feedback .owl-carousel .owl-prev span:before,
+.feedback .owl-carousel .owl-next span:before {
+  padding: 7px;
+  line-height: 1.6;
+}
+.feedback .owl-carousel .owl-next {
+  left: 101%;
+}
+.feedback .owl-carousel .owl-prev {
+  right: 101%;
+}
+/*============    	SECTION "Место проведения"   ===========*/
+.place {
+  background: url(../img/bg.jpg) no-repeat center center;
+  background-size: cover;
+}
+.place-box {
+  padding: 40px;
+  margin: 180px 0;
+  background: #fff;
+}
+.place-box h2 {
+  color: #333333;
+  font-family: 'P22UndergroundCYProMedium', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  padding-bottom: 40px;
+}
+.place-box span {
+  color: #333333;
+  font-family: 'P22UndergroundCYProBook', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+  padding: 15px;
+  display: block;
+  padding-left: 48px;
+}
+#place-marker {
+  background: url(../img/place-marker.png) no-repeat left top 4px;
+}
+#place-room {
+  background: url(../img/place-room.png) no-repeat left top 4px;
+}
+#place-time {
+  background: url(../img/place-time.png) no-repeat left top 4px;
+}
+/*============    	SECTION "Начни менять свою жизнь"   ===========*/
+.begin {
+  background-image: radial-gradient(circle 2120px at center, #ffffff 0%, #f6f6f6 100%);
+  padding: 75px 0;
+}
+.begin h3 {
+  color: #125e94;
+  font-family: 'P22UndergroundCYProHeavy', sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+.begin .start-now,
+.begin .puzzle-logo {
+  padding-top: 100px;
+}
+/*============    	FOOTER   ===========*/
+footer .confidentiality {
+  padding: 7px 0;
+}
+footer .confidentiality a {
+  color: #999999;
+  font-family: 'P22UndergroundCYProBook', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  text-decoration: underline;
+}
+footer .confidentiality a:hover {
+  color: #333;
+}
+.main-form form,
+.what-learn .other-form form,
+.feedback .other-form form {
+  text-align: center;
+}
+.main-form form button,
+.what-learn .other-form form button,
+.feedback .other-form form button {
+  margin: 20px auto;
+}
+/*============    	ВСПЛЫВАЮЩИЕ ОКНА    ===========*/
+/*============    	АДАПТИВ    ===========*/
+@media (min-width: 0px) and (max-width: 479px) {
+  .header-logo img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  .header-info {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .header-info div {
+    display: block;
+  }
+  .header-info div:last-child {
+    margin: 0;
+  }
+  .header-phones {
+    font-size: 15px;
+    text-align: center;
+  }
+  .main {
+    padding: 0;
+  }
+  .main-header {
+    padding-top: 50px;
+    background: url(../img/header-brain.png) no-repeat right 5% top 2%;
+    background-size: 30%;
+  }
+  .main-header h2 {
+    font-size: 60px;
+    margin-bottom: 40px;
+  }
+  .main-header span {
+    font-size: 22px;
+  }
+  .main-header ul {
+    margin-bottom: 20px;
+  }
+  .main-form p {
+    font-size: 12px;
+  }
+  .main-form p strong {
+    font-size: 16px;
+  }
+  .main-form button {
+    padding: 20px 50px;
+  }
+  .somebody {
+    padding: 50px 0;
+  }
+  .somebody h2 {
+    padding-bottom: 50px;
+    font-size: 28px;
+  }
+  .somebody-img {
+    display: block;
+    margin: 0 auto;
+  }
+  .somebody-txt h4 {
+    text-align: center;
+  }
+  .what-learn {
+    padding: 50px 0;
+  }
+  .what-learn h2 {
+    padding-bottom: 50px;
+    font-size: 28px;
+  }
+  .what-learn .circle-txt {
+    padding-bottom: 35px;
+    padding-top: 10px;
+  }
+  .what-learn .circle-txt h4 {
+    padding-bottom: 5px;
+  }
+  .what-learn .other-form,
+  .feedback .other-form {
+    margin: 50px 0;
+    padding: 24px;
+  }
+  .what-learn .other-form button,
+  .feedback .other-form button {
+    padding: 17px 50px;
+    margin: 20px 0;
+  }
+  .what-get-block-txt {
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+  .what-get-block-txt h4 {
+    padding-bottom: 15px;
+  }
+  .speakers {
+    padding: 50px 0;
+  }
+  .speakers h2 {
+    padding-bottom: 50px;
+    font-size: 28px;
+  }
+  .speakers .item h5 {
+    text-align: center;
+    padding-top: 10px;
+  }
+  .speakers .item span {
+    text-align: center;
+    display: block;
+  }
+  .speakers .carousel-control,
+  .speakers .carousel-indicators {
+    display: none;
+  }
+  .speakers .speakers-btn {
+    margin-top: 35px;
+  }
+  .speakers .speakers-btn a {
+    padding: 20px 50px;
+    box-shadow: 0 0 8px rgba(0, 16, 27, 0.2);
+    background-color: #e7af10;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-family: 'P22UndergroundCYProBook', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .speakers .speakers-btn a:hover {
+    box-shadow: 0 0 8px rgba(0, 16, 27, 0.4);
+    background-color: #e7af10;
+    text-decoration: none;
+  }
+  .feedback {
+    padding: 50px 0;
+  }
+  .feedback h2 {
+    padding-bottom: 50px;
+    font-size: 28px;
+  }
+  .feedback-video h5,
+  .feedback-video span {
+    display: block;
+    text-align: center;
+  }
+  .feedback .owl-dots {
+    display: none;
+  }
+  .feedback .other-form {
+    margin-bottom: 0;
+  }
+  .place-box {
+    padding: 25px;
+    margin: 100px 0;
+  }
+  .place-box h2 {
+    padding-bottom: 20px;
+    font-size: 26px;
+    text-align: center;
+  }
+  .place-box span {
+    padding: 15px 0 15px 37px;
+    font-size: 14px;
+  }
+  .begin {
+    padding: 50px 0;
+  }
+  .begin .start-now {
+    padding-top: 0;
+  }
+  .begin h3 {
+    font-size: 36px;
+    text-align: center;
+  }
+  .begin .puzzle-logo {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  footer {
+    padding-top: 0;
+  }
+  footer .confidentiality {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .owl-item {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  .header-logo img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  .header-info {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .header-info div {
+    display: block;
+  }
+  .header-info div:last-child {
+    margin: 0;
+  }
+  .header-phones {
+    font-size: 25px;
+    text-align: center;
+  }
+  .main {
+    padding: 0;
+  }
+  .main-header {
+    padding-top: 50px;
+    background: url(../img/header-brain.png) no-repeat right 2% top 10%;
+    background-size: 20%;
+  }
+  .main-header h2 {
+    font-size: 60px;
+    margin-bottom: 40px;
+  }
+  .main-header span {
+    font-size: 22px;
+  }
+  .main-header ul {
+    margin-bottom: 40px;
+  }
+  .main-form p {
+    font-size: 12px;
+  }
+  .main-form p strong {
+    font-size: 16px;
+  }
+  .main-form button {
+    padding: 20px 50px;
+  }
+  .somebody {
+    padding: 50px 0;
+  }
+  .somebody h2 {
+    padding-bottom: 50px;
+    font-size: 28px;
+  }
+  .somebody-img {
+    display: block;
+    margin: 0 auto;
+  }
+  .somebody-txt h4 {
+    text-align: center;
+  }
+  .somebody-txt ul {
+    padding-left: 20%;
+    padding-right: 15%;
+  }
+  .what-learn {
+    padding: 50px 0;
+  }
+  .what-learn h2 {
+    padding-bottom: 50px;
+    font-size: 28px;
+  }
+  .what-learn .circle-txt {
+    padding-bottom: 35px;
+    padding-top: 10px;
+  }
+  .what-learn .circle-txt h4 {
+    padding-bottom: 5px;
+  }
+  .what-learn .other-form,
+  .feedback .other-form {
+    margin: 50px 0;
+    padding: 24px;
+  }
+  .what-learn .other-form button,
+  .feedback .other-form button {
+    padding: 17px 50px;
+    margin: 20px 0;
+  }
+  .what-get-block-txt {
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+  .what-get-block-txt h4 {
+    padding-bottom: 15px;
+  }
+  .speakers {
+    padding: 50px 0;
+  }
+  .speakers h2 {
+    padding-bottom: 50px;
+    font-size: 28px;
+  }
+  .speakers .item h5 {
+    text-align: center;
+    padding-top: 10px;
+  }
+  .speakers .item span {
+    text-align: center;
+    display: block;
+  }
+  .speakers .carousel-control,
+  .speakers .carousel-indicators {
+    display: none;
+  }
+  .speakers .speakers-btn {
+    margin-top: 35px;
+  }
+  .speakers .speakers-btn a {
+    padding: 20px 50px;
+    box-shadow: 0 0 8px rgba(0, 16, 27, 0.2);
+    background-color: #e7af10;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-family: 'P22UndergroundCYProBook', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .speakers .speakers-btn a:hover {
+    box-shadow: 0 0 8px rgba(0, 16, 27, 0.4);
+    background-color: #e7af10;
+    text-decoration: none;
+  }
+  .feedback {
+    padding: 50px 0;
+  }
+  .feedback h2 {
+    padding-bottom: 50px;
+    font-size: 28px;
+  }
+  .feedback-video h5,
+  .feedback-video span {
+    display: block;
+    text-align: center;
+  }
+  .feedback .owl-dots {
+    display: none;
+  }
+  .feedback .other-form {
+    margin-bottom: 0;
+  }
+  .place-box {
+    padding: 25px;
+    margin: 100px 0;
+  }
+  .place-box h2 {
+    padding-bottom: 20px;
+    font-size: 28px;
+    text-align: center;
+  }
+  .place-box span {
+    padding: 15px 0 15px 55px;
+    font-size: 18px;
+  }
+  .begin {
+    padding: 50px 0;
+  }
+  .begin .start-now {
+    padding-top: 0;
+  }
+  .begin h3 {
+    font-size: 36px;
+    text-align: center;
+  }
+  .begin .puzzle-logo {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  footer {
+    padding-top: 0;
+  }
+  footer .confidentiality {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .owl-item {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .header-logo img {
+    max-width: 150%;
+    padding-top: 13px;
+  }
+  .header-info {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-left: 13%;
+  }
+  .header-info div {
+    display: block;
+  }
+  .header-info div:last-child {
+    margin: 0;
+  }
+  .header-phones {
+    font-size: 25px;
+    text-align: center;
+  }
+  .header-phones a {
+    display: block;
+  }
+  .header-phones a:last-child {
+    padding-left: 0;
+  }
+  .main-header ul {
+    margin-bottom: 40px;
+  }
+  .somebody-txt h4 {
+    text-align: center;
+  }
+  .somebody-txt ul {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .speakers .item img {
+    width: 75%;
+  }
+  .feedback .other-form {
+    margin: 0;
+  }
+  .feedback {
+    padding-top: 50px;
+  }
+  .begin {
+    padding: 50px 0;
+  }
+  .begin .start-now {
+    padding-top: 0;
+  }
+  .begin h3 {
+    font-size: 50px;
+    line-height: 1.2;
+    text-align: center;
+  }
+  .begin .puzzle-logo {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header-logo img {
+    max-width: 150%;
+    padding-top: 13px;
+  }
+  .header-info {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-left: 15%;
+  }
+  .header-info div {
+    display: block;
+  }
+  .header-info div:last-child {
+    margin: 0;
+  }
+  .header-phones {
+    font-size: 25px;
+    text-align: center;
+  }
+  .header-phones a {
+    display: block;
+  }
+  .header-phones a:last-child {
+    padding-left: 0;
+  }
+  .main-header {
+    background: url(../img/header-brain.png) no-repeat right 2% top 10%;
+    background-size: 25%;
+  }
+  .main-form {
+    padding: 20px;
+  }
+  .main-form button {
+    padding: 16px 53px;
+  }
+  .what-learn .other-form button,
+  .feedback .other-form button {
+    padding: 19px 33px;
+  }
+  .somebody-img img {
+    width: 100%;
+  }
+  .feedback .other-form {
+    margin: 40px 0 0;
+  }
+}

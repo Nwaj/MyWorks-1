@@ -1,0 +1,194 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+@mixin before
+	&:before
+		position: absolute
+		content: ''
+		width: 100%
+		height: 1px
+		bottom: 0
+		left: 0
+		background-color: $accent
+
+::placeholder
+	color: #666
+
+::selection
+	background-color: $accent
+	color: #fff
+*
+	user-select: none
+html, body
+	height: 100%
+
+body
+	font-size: 30px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+	color: #fff
+	input, textarea
+		border: #666 1px solid
+		outline: none
+		&:focus:required:invalid
+			border-color: red
+		&:required:valid
+			border-color: green
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+.text-center
+	text-align: center
+
+.wrapper
+	position: relative
+	display: flex
+	flex-direction: column
+	align-items: center
+	justify-content: center
+	min-height: 100vh
+	background: url(../img/CppMap.jpg) no-repeat center
+	background-size: cover
+	&:before
+		position: absolute
+		content: ''
+		width: 100%
+		height: 100%
+		top: 0
+		left: 0
+		background-color: rgba(0,0,0, .68)
+
+.calc
+	position: relative
+	display: flex
+	flex-direction: column
+	justify-content: top
+	padding: 26px 150px
+	border: 2px solid $accent
+
+.tabs
+	display: flex
+	justify-content: center
+	margin-bottom: 26px
+	.tab
+		position: relative
+		margin-right: 5px
+		background-image: linear-gradient(to top, rgba(0, 0, 0, 0.77) 0%, #323131 100%)
+		color: $tab-text
+		font-size: 18px
+		font-weight: bold
+		letter-spacing: -0.18px
+		cursor: pointer
+		&-left
+			padding: 20.5px 61px
+			border-radius: 15px 0 0
+		&-right
+			padding: 20.5px 14.8px
+			border-radius: 0 15px 0 0
+	.active
+		color: #000
+		background: $accent
+		&:before
+			position: absolute
+			content: ''
+			width: 100%
+			height: 1px
+			bottom: -8px
+			left: 0
+			background-color: $accent
+
+.blocks
+	margin-bottom: 30px
+	&-title
+		position: relative
+		display: inline-block
+		font-weight: bold
+		@include before
+	.counter
+		width: 100%
+		border: 3px solid rgba($accent, .6)
+		background-color: transparent
+		text-align: center
+		color: $accent
+		font-size: 48px
+		font-weight: bold
+		letter-spacing: -0.48px
+		line-height: 1.1
+#pages-block
+	display: none
+
+.addiction
+	margin-bottom: 30px
+	color: $accent
+	font-weight: bold
+	&-title
+		text-align: center
+	&-block
+		position: relative
+		text-align: left
+	input[type=checkbox]
+		display: none
+		&:checked
+			&+label:before
+				border: 3px solid #fff
+				background-color: $accent
+	label
+		padding-left: 40px
+		&:hover
+			cursor: pointer
+		&:before
+			content: ''
+			position: absolute
+			top: 11px
+			left: 0
+			width: 26px
+			height: 26px
+			background-color: transparent
+			border: 3px solid #fff
+			transition: all .3s
+
+.total
+	text-align: center
+	span
+		display: block
+		padding-top: 10px
+		font-size: 36px
+		font-weight: bold
+		letter-spacing: -0.36px
+	input
+		text-align: center
+		width: 100%
+		color: $accent
+		font-size: 56px
+		font-weight: bold
+		letter-spacing: -0.56px
+		line-height: 1.1
+		border: none
+		background-color: transparent
+
+.fade
+	animation-name: fade
+	animation-duration: 2s
+@keyframes fade
+	from
+		opacity: .1
+	to
+		opacity: 1
+
+.blink
+	animation-name: blink
+	animation-duration: 2s
+@keyframes blink
+	from
+		border-color: rgba(256,256,256,.8)
+	to
+		border-color: $accent	
+
+@import "media"

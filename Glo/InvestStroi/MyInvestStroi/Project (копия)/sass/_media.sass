@@ -1,0 +1,149 @@
+@import "colors"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	.top-nav_menu 
+		li
+			margin-right: 38px
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 768px) and (max-width : 991px)
+	.top-nav
+		&_btn
+			display: block
+		&_menu
+			display: none
+			justify-content: space-around
+			padding-right: 0
+			li 
+				margin-right: 0
+				line-height: 2
+				a 
+					transition: all .2s ease
+					&:after
+						display: none
+					&:hover
+						border-bottom: 2px solid $active-color
+			&__active
+				display: flex
+				margin-bottom: 0
+	.main
+		.left-sidebar
+			//&_btn
+			//	display: block
+			//&_menu
+			//	display: none
+			//	&__active
+			//		display: block
+			&_object:last-child
+				display: none
+	.footer
+		.policy
+			width: 100%
+		&_social
+			text-align: right
+		li 
+			display: inline-block
+			margin-left: 10px
+		&_contacts
+			font-size: 13px
+			&_phone
+				font-size: 18px
+
+	.organization
+		&-block
+			padding: 20px 15px
+
+	.calc
+		&-summ-invest-num
+			padding: 10px 15px
+		&-total
+			padding: 10px 12px
+		&-monthly
+			padding-left: 12px
+				
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px)
+	.top-nav
+		&_btn
+			display: block
+		&_menu
+			flex-direction: column
+			display: none
+			li 
+				line-height: 2
+				a 
+					transition: all .2s ease
+					&:after
+						display: none
+					&:hover
+						border-bottom: 2px solid $active-color
+
+			&__active
+				display: flex
+				margin-bottom: 0
+	.main
+		.left-sidebar
+			&_btn
+				display: block
+			&_menu
+				display: none
+				&__active
+					display: block
+			&_object
+				display: none
+	.footer
+		.policy
+			text-align: center
+			width: 100%
+		&_contacts
+			text-align: left
+		&_social
+			text-align: left
+			li
+				margin-right: 25px
+				margin-left: 0
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+@media only screen and (max-width : 380px)
+	.main
+		.directions
+			&-block 
+				background-size: 80%
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+

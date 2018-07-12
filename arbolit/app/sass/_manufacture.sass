@@ -1,0 +1,187 @@
+.manufacture 
+	padding-bottom: 500px
+	position: relative
+	background: url(../img/make__bg.jpg) no-repeat center
+	background-size: cover
+	&:before
+		position: absolute
+		content: ''
+		width: 100%
+		height: 100%
+		top: 0
+		left: 0
+		background-color: rgba(255, 255, 255, 0.9)
+.how-we-produce
+	margin-bottom: 100px
+	&__block
+		padding: 18px 60px
+		text-align: center
+		&_col
+			&:nth-of-type(1)
+				border-bottom: 1px solid $prod-table
+				border-right: 1px solid $prod-table
+			&:nth-of-type(2)
+				border-bottom: 1px solid $prod-table
+				border-right: 1px solid $prod-table
+			&:nth-of-type(3)
+				// border-right: 1px solid $prod-table
+				border-bottom: 1px solid $prod-table
+			&:nth-of-type(4)
+				border-right: 1px solid $prod-table
+				// border-bottom: 1px solid $prod-table
+			&:nth-of-type(5)
+				border-right: 1px solid $prod-table
+			&:nth-of-type(6)
+				bordr-bottom: 1px solid $prod-table
+	&__desc
+		margin-bottom: 0
+		margin-top: 10px
+		font-size: 18px
+		line-height: 1.2
+.what-we-produce
+.w-w-prod
+	&__block
+		&_center
+			position: relative
+			display: inline-block
+			width: 270px
+			height: 270px
+			left: 50%
+			border: 3px solid $red
+			transform: rotate(45deg)
+			transform-origin: 0 0
+			overflow: hidden
+			&:before
+				position: absolute
+				content: ''
+				width: 150%
+				height: 150%
+				top: 0px
+				left: 0
+				background: url(../img/make__square_big.jpg) no-repeat center
+				background-size: cover
+				transform: rotate(-45deg) translateY(-26%)
+				transform-origin: center
+			&:after
+				position: absolute
+				content: ''
+				width: 100%
+				height: 100%
+				top: 0px
+				left: 0
+				background: rgba(#000, .5)
+				transform-origin: center
+			&_bottom
+				display: inline-block
+				position: relative
+				width: 170px
+				height: 170px
+				left: 50%
+				top: -55px
+				border: 3px solid $red
+				transform: rotate(45deg)
+				transform-origin: 0 0
+				overflow: hidden
+				&:before
+					position: absolute
+					content: ''
+					width: 150%
+					height: 150%
+					top: 0px
+					left: 0
+					background: url(../img/make__square_small.jpg) no-repeat center
+					background-size: cover
+					transform: rotate(-45deg) translateY(-26%)
+					transform-origin: center
+				&:after
+					position: absolute
+					content: ''
+					width: 100%
+					height: 100%
+					top: 0px
+					left: 0
+					background: rgba(#000, .4)
+					transform-origin: center
+		&_left
+			position: relative
+			display: inline-block
+			float: right
+			transform: translateY(135px)
+		&_right
+			position: relative
+			display: inline-block
+			transform: translateY(190px)
+	&__desc
+		&_left
+			display: inline-block
+			padding: 13px 55px 13px 20px
+			margin-right: 55px	
+			background-color: $accent
+			color: #ffffff
+			font-size: 18px
+		&_right
+			display: inline-block
+			padding: 13px 20px 13px 55px
+			margin-left: 55px	
+			background-color: $accent
+			color: #ffffff
+			font-size: 18px
+	&__title
+		position: relative
+		margin-bottom: 0
+		padding: 0 30px
+		top: -35%
+		color: #ffffff
+		font-size: 24px
+		font-weight: 700
+		text-align: center
+		&_desc
+			padding: 0 40%
+			margin-top: 10px
+			font-size: 18px
+			text-align: center
+			&_strong
+				display: block
+				font-weight: 700
+	&__col
+		padding: 0
+.section__title_manufacture
+	margin-bottom: 50px
+.rectangle
+	position: absolute
+	display: block
+	width: 78px
+	height: 78px
+	background-color: $red
+	transform: rotate(45deg)
+	&__wwp
+		&_left
+			margin-right: 15px
+			top: 16px
+			right: 0
+			&:after
+				position: absolute
+				content: '1'
+				color: #ffffff
+				font-size: 100px
+				font-weight: 800
+				font-style: italic
+				transform: rotate(-45deg) translate(25px, -5px)
+				text-shadow: -0 -3px 2px $red, 0 -3px 2px $red, -0 3px 2px $red, 0 3px 2px $red, -3px -0 2px $red, 3px -0 2px $red, -3px  0 2px $red, 3px  0 2px $red, -1px -3px 2px $red, 1px -3px 2px $red, -1px  3px 2px $red, 1px  3px 2px $red, -3px -1px 2px $red, 3px -1px 2px $red, -3px  1px 2px $red, 3px 1px 2px $red, -2px -3px 2px $red, 2px -3px 2px $red, -2px 3px 2px $red, 2px 3px 2px $red, -3px -2px 2px $red, 3px -2px 2px $red, -3px 2px 2px $red, 3px 2px 2px $red, -3px -3px 2px $red, 3px -3px 2px $red, -3px 3px 2px $red, 3px  3px 2px $red, -3px -3px 2px $red, 3px -3px 2px $red, -3px  3px 2px $red, 3px 3px 2px $red 
+		&_right
+			margin-left: 15px
+			top: -39px
+			left: 0
+			&:after
+				position: absolute
+				content: '2'
+				color: #ffffff
+				font-size: 100px
+				font-weight: 800
+				font-style: italic
+				transform: rotate(-45deg) translate(51px,-28px)
+				text-shadow: -0 -3px 2px $red, 0 -3px 2px $red, -0 3px 2px $red, 0 3px 2px $red, -3px -0 2px $red, 3px -0 2px $red, -3px  0 2px $red, 3px  0 2px $red, -1px -3px 2px $red, 1px -3px 2px $red, -1px  3px 2px $red, 1px  3px 2px $red, -3px -1px 2px $red, 3px -1px 2px $red, -3px  1px 2px $red, 3px 1px 2px $red, -2px -3px 2px $red, 2px -3px 2px $red, -2px 3px 2px $red, 2px 3px 2px $red, -3px -2px 2px $red, 3px -2px 2px $red, -3px 2px 2px $red, 3px 2px 2px $red, -3px -3px 2px $red, 3px -3px 2px $red, -3px 3px 2px $red, 3px  3px 2px $red, -3px -3px 2px $red, 3px -3px 2px $red, -3px  3px 2px $red, 3px 3px 2px $red 
+
+		
+
+

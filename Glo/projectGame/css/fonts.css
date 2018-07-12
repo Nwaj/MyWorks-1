@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'P22UndergroundCYProBook';
+    src: url('../assets/fonts/P22UndergroundCYProBook.eot');
+    src: url('../assets/fonts/P22UndergroundCYProBook.eot') format('embedded-opentype'),
+         url('../assets/fonts/P22UndergroundCYProBook.woff2') format('woff2'),
+         url('../assets/fonts/P22UndergroundCYProBook.woff') format('woff'),
+         url('../assets/fonts/P22UndergroundCYProBook.ttf') format('truetype'),
+         url('../assets/fonts/P22UndergroundCYProBook.svg#P22UndergroundCYProBook') format('svg');
+}
+@font-face {
+    font-family: 'P22UndergroundCYProDemi';
+    src: url('../assets/fonts/P22UndergroundCYProDemi.eot');
+    src: url('../assets/fonts/P22UndergroundCYProDemi.eot') format('embedded-opentype'),
+         url('../assets/fonts/P22UndergroundCYProDemi.woff2') format('woff2'),
+         url('../assets/fonts/P22UndergroundCYProDemi.woff') format('woff'),
+         url('../assets/fonts/P22UndergroundCYProDemi.ttf') format('truetype'),
+         url('../assets/fonts/P22UndergroundCYProDemi.svg#P22UndergroundCYProDemi') format('svg');
+}
+@font-face {
+    font-family: 'P22UndergroundCYProHeavy';
+    src: url('../assets/fonts/P22UndergroundCYProHeavy.eot');
+    src: url('../assets/fonts/P22UndergroundCYProHeavy.eot') format('embedded-opentype'),
+         url('../assets/fonts/P22UndergroundCYProHeavy.woff2') format('woff2'),
+         url('../assets/fonts/P22UndergroundCYProHeavy.woff') format('woff'),
+         url('../assets/fonts/P22UndergroundCYProHeavy.ttf') format('truetype'),
+         url('../assets/fonts/P22UndergroundCYProHeavy.svg#P22UndergroundCYProHeavy') format('svg');
+}
+@font-face {
+    font-family: 'P22UndergroundCYProMedium';
+    src: url('../assets/fonts/P22UndergroundCYProMedium.eot');
+    src: url('../assets/fonts/P22UndergroundCYProMedium.eot') format('embedded-opentype'),
+         url('../assets/fonts/P22UndergroundCYProMedium.woff2') format('woff2'),
+         url('../assets/fonts/P22UndergroundCYProMedium.woff') format('woff'),
+         url('../assets/fonts/P22UndergroundCYProMedium.ttf') format('truetype'),
+         url('../assets/fonts/P22UndergroundCYProMedium.svg#P22UndergroundCYProMedium') format('svg');
+}
+@font-face {
+    font-family: 'P22UndergroundCYProThin';
+    src: url('../assets/fonts/P22UndergroundCYProThin.eot');
+    src: url('../assets/fonts/P22UndergroundCYProThin.eot') format('embedded-opentype'),
+         url('../assets/fonts/P22UndergroundCYProThin.woff2') format('woff2'),
+         url('../assets/fonts/P22UndergroundCYProThin.woff') format('woff'),
+         url('../assets/fonts/P22UndergroundCYProThin.ttf') format('truetype'),
+         url('../assets/fonts/P22UndergroundCYProThin.svg#P22UndergroundCYProThin') format('svg');
+}
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../assets/fonts/glyphicons-halflings-regular.eot');
+    src: url('../assets/fonts/glyphicons-halflings-regular.eot') format('embedded-opentype'),
+         url('../assets/fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+         url('../assets/fonts/glyphicons-halflings-regular.woff') format('woff'),
+         url('../assets/fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+         url('../assets/fonts/glyphicons-halflings-regular.svg#glyphicons-halflings-regular') format('svg');
+}

@@ -1,0 +1,307 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+
+//Extra large: ≥1200px
++media-breakpoint-down(xl)
+
+//Large: ≥992px
++media-breakpoint-down(lg)
+	.nav
+		padding-right: 0
+		&__link
+			font-size: 15px
+	.contact
+		&__phone
+			font-size: 14px
+		&__opening-hours
+			font-size: 13px
+		&__btn
+			padding: 10px 15px
+			font-size: 14px
+	.hero 
+		&__title
+			line-height: 1.3
+		&__speech
+			font-size: 34px
+	.col__form
+		padding: 0 15px
+	.materials
+		&__square
+			margin-bottom: 10px
+	.how-we-produce
+		&__block
+			padding: 18px 30px
+	
+	.w-w-prod
+		// &__col
+		// 	padding: 0 15px
+		&__title
+			font-size: 21px
+			&_desc
+				padding: 0 38%
+		&__block
+			&_center
+				width: 225px
+				height: 225px
+				&_bottom
+					width: 150px
+					height: 150px
+			&_left
+				transform: translateY(104px)
+			&_right
+				transform: translateY(160px)
+			
+//Medium: ≥768px
++media-breakpoint-down(md)
+	.header
+		padding: 10px 0
+		&__contact
+			flex-direction: column
+	.nav	
+		&__link
+			font-size: 14px
+			color: #fff
+			&:before
+				display: none
+			&:hover
+				color: #ffffff
+				text-decoration: none
+	.contact
+		&__phone
+			margin-bottom: 1px
+		&__btn
+			margin-top: 1px	
+	.hero 
+		&__speech
+			font-size: 30px
+			&_capital-letter
+				font-size: 80px
+	.materials
+		&__square
+			margin-top: 40px
+		&__icon
+			background-color: $accent
+			border-radius: 50%
+			border: 2px solid $red
+			transition: all .3s
+		&__item
+			&_desc
+				transform: translateX(0) scale(1,1) !important
+	.buildings
+		transform: translateY(-25%)
+	
+	.how-we-produce
+		&__block
+			padding: 18px 17px
+			&_col
+				&:nth-of-type(2)
+					border-right: none
+				&:nth-of-type(3)
+					border-right: 1px solid $prod-table
+				&:nth-of-type(4)
+					border-bottom: 1px solid $prod-table
+					border-right: none
+		&__desc
+			font-size: 17px
+
+	.w-w-prod
+		// &__col
+		// 	padding: 0 15px
+		&__title
+			padding: 0 230px
+			font-size: 21px
+			&_desc
+				padding: 0 30%
+		&__block
+			&_center
+				&_bottom
+					margin-top: 40px
+			&_left
+				float: none
+				transform: translate(67%,-38px)
+			&_right
+				transform: translate(125.6%, 2px)
+
+	
+	
+//Small: ≥576px
++media-breakpoint-down(sm)
+	.header
+		&__col_nav
+			order: 3
+		&__contact
+			flex-direction: row
+			justify-content: flex-end
+	.nav
+		margin-top: 20px
+		&__link
+			font-size: 16px
+	.contact
+		&__info
+			margin-right: 15px
+		&__phone
+			font-size: 15px
+		&__opening-hours
+			font-size: 14px
+		&__btn
+			padding: 10px 20px
+			margin-top: -3px
+			font-size: 15px	
+	.hero 
+		&__title
+			margin-left: 0
+			margin-right: 0
+			font-size: 14px
+		&__speech
+			font-size: 26px
+			&_capital-letter
+				font-size: 60px
+	
+	.how-we-produce
+		&__desc
+			font-size: 16px
+	.w-w-prod
+		&__col
+			padding: 0 15px
+		&__title
+			padding: 0 130px
+			font-size: 20px
+			&_desc
+				padding: 0 27%
+		&__block
+			&_center
+				&_bottom
+					margin-top: 47px
+			&_left
+				float: none
+				transform: translate(25%,-38px)
+			&_right
+				transform: translate(82.6%,8px)
+
+//Extra small: >0
++media-breakpoint-down(xs)
+	.header
+		&__contact
+			margin-top: 15px
+			justify-content: center
+		&__col_nav
+			order: 0
+	.logo
+		&_header
+			margin-top: 0
+			text-align: center
+	.nav
+		margin-top: 0
+		text-align: right
+		&__link
+			font-size: 15px
+
+		&__list
+			// display: none
+			position: fixed
+			width: 100%
+			height: 100%
+			left: 0
+			top: 0
+			flex-direction: column
+			align-items: center
+			justify-content: space-around
+			background-color: $accent
+			z-index: 1
+			transform: translateX(100%)
+			transition: all .5s
+			&_active
+				transform: translateX(0)
+		&__link
+			font-size: 18px
+		&__item:not(:last-child)
+			margin-bottom: 15px
+	.hamburger
+		position: absolute
+		top: -25px
+		right: 20px
+		z-index: 10
+	.hamburger--collapse 
+		& .hamburger
+				&-inner
+					&:before
+						top: -8px
+					&:after
+						top: -16px
+	.contact
+		&__info
+			margin-right: 10px
+		&__phone
+			font-size: 14px
+		&__opening-hours
+			font-size: 13px
+		&__btn
+			padding: 10px 15px
+			font-size: 14px
+	.hero
+		&__speech 
+			font-size: 18px
+			&_capital-letter
+				font-size: 40px
+				line-height: 0.6
+	.square__desc
+		font-size: 14px
+	.materials
+		&__item
+			display: block
+			text-align: center
+			&_desc
+				margin-left: 0
+				margin-bottom: 20px
+				font-size: 14px
+		&__icon
+			margin: 0 auto
+	.buildings
+		transform: translateY(-12.5%)
+	.how-we-produce
+		&__block
+			&_col
+				&:nth-of-type(1), &:nth-of-type(3), &:nth-of-type(5)
+					border-right: none
+				&:nth-of-type(5)
+					border-bottom: 1px solid $prod-table
+	
+	.w-w-prod
+		&__col
+			padding: 0 15px
+		&__title
+			padding: 0 26%
+			font-size: 18px
+			&_desc
+				padding: 0
+		&__block
+			&_center
+				&_bottom
+					margin-top: 100px
+			&_left
+				float: right
+				margin-right: 30px
+				transform: translate(0, -37px)
+			&_right
+				margin-left: 30px
+				transform: translate(0, 51px)
+
+/*==========  Mobile First  ==========*/
+
+//Extra small: <576px
++media-breakpoint-up(xs)
+
+//Small: ≤576px
++media-breakpoint-up(sm)
+
+//Medium: ≤768px
++media-breakpoint-up(md)
+
+//Large: ≤992px
++media-breakpoint-up(lg)
+
+//Extra large: ≤1200px
++media-breakpoint-up(xl)

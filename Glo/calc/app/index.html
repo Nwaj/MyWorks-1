@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<base href="">
+		<title>Calc</title>
+		<meta name="description" content="">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<!-- Template Basic Images Start -->
+		<meta property="og:image" content="path/to/image.jpg">
+		<link rel="icon" href="img/favicon/favicon.ico">
+		<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+		<!-- Template Basic Images End -->
+		<!-- Custom Browsers Color Start -->
+		<meta name="theme-color" content="#000">
+		<!-- Custom Browsers Color End -->
+		<link rel="stylesheet" href="css/main.min.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="container">
+				<div class="calc">
+					<div class="tabs">
+						<div class="tab tab-left active">Лэндинг</div>
+						<div class="tab tab-right">Многостраничник</div>
+					</div>
+					<div class="blocks" id="blocks-block">
+						<div class="row">
+							<div class="col-md-9">
+								<div class="blocks-title">Количество блоков</div>
+							</div>
+							<div class="col-md-3">
+								<input type="number" id="counter-block" class="counter">
+							</div>
+						</div>
+					</div>
+					<!-- /#blocks-block.blocks -->
+					<div class="blocks" id="pages-block">
+						<div class="row">
+							<div class="col-md-9">
+								<div class="blocks-title">Количество страниц</div>
+							</div>
+							<div class="col-md-3">
+								<input type="number" id="counter-pages" class="counter">
+							</div>
+						</div>
+					</div>
+					<!-- /#pages-block.blocks -->
+					<div class="blocks">
+						<div class="row">
+							<div class="col-md-9">
+								<div class="blocks-title">Количество часов на проект</div>
+							</div>
+							<div class="col-md-3">
+								<input type="number" id="counter-hours" class="counter">
+							</div>
+						</div>
+					</div>
+					<!-- /.blocks -->
+					<div class="blocks">
+						<div class="row">
+							<div class="col-md-9">
+								<div class="blocks-title">Стоимость часа работы</div>
+							</div>
+							<div class="col-md-3">
+								<input type="number" id="counter-rate" class="counter">
+							</div>
+						</div>
+					</div>
+					<!-- /.blocks -->
+					<div class="addiction">
+						<div class="addiction-title">Дополнительно</div>
+						<!-- /.addiction-title -->
+						<div class="row">
+							<div class="col-12">
+								<div class="addiction-block">
+									<input type="checkbox" id="changes-check" class="checkbox">
+									<label for="changes-check">Возможность редактировать текст на сайте</label>
+								</div>
+								<!-- /.addiction-block -->
+							</div>
+							<div class="col-12">
+								<div class="addiction-block">
+									<input type="checkbox" id="cms-check" class="checkbox">
+									<label for="cms-check">Установка на CMS</label>
+								</div>
+								<!-- /.addiction-block -->
+							</div>
+						</div>
+					</div>
+					<!-- /.addiction -->
+					<div class="total">
+						<div class="row">
+							<div class="col-md-8">
+								<span>Общая стоимость</span>
+							</div>
+							<div class="col-md-4">
+								<input type="text" value="5000" id="total-value" class="total-count">
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /.calc -->
+			</div>
+		</div>
+		<script src="js/scripts.min.js"></script>
+	</body>
+</html>
